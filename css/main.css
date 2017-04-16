@@ -8,12 +8,13 @@ header {
   text-align: center;
   padding-top: 25px;
   padding-bottom: 25px;
+  background-image: url('../img/header1.jpg');
   background-size: cover;
 }
 
 
 nav {
-    background-color: gray;
+    background-color: #890407;
     width: 100%;
     text-align: center;
     padding-top: 25px;
@@ -32,10 +33,11 @@ main {
 
 .menu ul li {
     display: block;
-    border-bottom: 2px solid pink;
+    border-bottom: 2px solid #563E3F;
     padding: 15px 0px 15px 0px;
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
+    color: #E5E1D2;
 }
 
 .menu ul li :last-child {
@@ -52,10 +54,11 @@ main {
 @media screen and (min-width: 480px) {
     .menu ul li {
         display: block;
-        border-bottom: 2px solid pink;
+        border-bottom: 2px solid #563E3F;
         padding: 15px 0px 15px 0px;
         font-family: 'Roboto', sans-serif;
         font-size: 1.5em;
+        color: #E5E1D2;
     }
 
     .menu ul li :last-child {
@@ -79,6 +82,7 @@ main {
         border-bottom: none;
         font-family: 'Roboto', sans-serif;
         font-size: 1.5em;
+        color: #E5E1D2;
 
     }
 

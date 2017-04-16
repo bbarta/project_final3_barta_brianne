@@ -12,13 +12,16 @@ header {
   background-size: cover;
 }
 
+header img {
+    max-width: 150px;
+}
 
 nav {
     background-color: #890407;
     width: 100%;
     text-align: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
 
@@ -70,6 +73,10 @@ main {
         color: white;
     }
 
+    header img {
+        max-width: 250px;
+    }
+
 }
 
 /* desktop */
@@ -86,6 +93,9 @@ main {
 
     }
 
+    header img {
+        max-width: 300px;
+    }
 }
 
 /*

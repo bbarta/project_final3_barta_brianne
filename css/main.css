@@ -9,9 +9,7 @@ header {
   text-align: center;
   padding-top: 25px;
   padding-bottom: 25px;
-  background-image: url('../img/header-01.png');
   background-size: cover;
-  font-family: 'Poppins', sans-serif;
 }
 
 
@@ -34,6 +32,12 @@ main {
 
 .menu ul li {
     display: block;
+    border-bottom: 2px solid pink;
+    padding: 15px 0px 15px 0px;
+}
+
+.menu ul li :last-child {
+    border-bottom: none;
 }
 
 .menu a {
@@ -51,6 +55,16 @@ main {
 
 }
 
+@media screen and (min-width: 480px) {
+    .menu ul li {
+        display: inline-block;
+        text-decoration: none;
+        padding: 15px;
+        border-bottom: none;
+
+    }
+
+}
 
 /*
 #about, #jobs, #read {

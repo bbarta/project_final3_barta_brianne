@@ -1,0 +1,110 @@
+header {
+    width: 100%;
+    }
+
+
+header {
+  background-color: purple;
+  width: 100%;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-image: url('../img/header-01.png');
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+nav {
+    background-color: gray;
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+main {
+  background-color: #FFFBE1;
+  width: 100%;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+
+#about {
+  background-color: #FF9425;
+  width: 100%;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+}
+
+
+
+/*
+#about, #jobs, #read {
+  width: 70%;
+  margin: auto;
+} */
+
+#menu {
+  background-color: #FFFBE1;
+  width: 100%;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+}
+
+
+#gallery {
+  background-color: #FF6312;
+  width: 100%;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+}
+
+#events {
+  background-color: #FF6312;
+  width: 100%;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+}
+
+
+
+#location {
+  background-color: pink;
+  width: 100%;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+}
+
+
+#gifts {
+  background-color: red;
+  width: 100%;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+}
+
+
+footer {
+    background-color: orange;
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}

@@ -32,6 +32,15 @@ main {
   padding-bottom: 25px;
 }
 
+.menu ul li {
+    display: block;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
 
 #about {
   background-color: #FF9425;
@@ -41,7 +50,6 @@ main {
   padding-bottom: 25px;
 
 }
-
 
 
 /*

@@ -128,11 +128,13 @@ main #gallery, #location, h2 {
 
 }
 
-/*
-#about, #jobs, #read {
+
+#mainc, #menuc {
   width: 70%;
   margin: auto;
-} */
+  font-family: 'Roboto', sans-serif;
+
+}
 
 #menu {
   background-color: #FFFBE1;

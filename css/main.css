@@ -26,13 +26,17 @@ nav {
 }
 
 main {
-  background-color: #FFFBE1;
+  background-color: white;
   width: 100%;
   text-align: center;
   padding-top: 25px;
   padding-bottom: 25px;
 }
 
+#menu {
+    background-image: url('../img/bg-slate.jpg');
+    background-size: cover;
+}
 
 .menu ul li {
     display: block;
@@ -96,6 +100,7 @@ main {
     header img {
         max-width: 300px;
     }
+
 }
 
 /*
@@ -115,7 +120,7 @@ main {
 
 
 #gallery {
-  background-color: #FF6312;
+  background-color: white;
   width: 100%;
   text-align: center;
   padding-top: 25px;
@@ -125,6 +130,8 @@ main {
 
 #events {
   background-color: #FF6312;
+  background-image: url('../img/white-brick.jpg');
+  background-size: cover;
   width: 100%;
   text-align: center;
   padding-top: 25px;
@@ -135,7 +142,7 @@ main {
 
 
 #location {
-  background-color: pink;
+  background-color: white;
   width: 100%;
   text-align: center;
   padding-top: 25px;
@@ -146,6 +153,10 @@ main {
 
 #gifts {
   background-color: red;
+  background-image: url('../img/give-bg.jpg');
+  background-size: cover;
+  min-height: 300px;
+  position: relative;
   width: 100%;
   text-align: center;
   padding-top: 25px;
@@ -155,7 +166,7 @@ main {
 
 
 footer {
-    background-color: orange;
+    background-color: #888686;
     width: 100%;
     text-align: center;
     padding-top: 25px;

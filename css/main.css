@@ -46,7 +46,7 @@ main {
   padding-bottom: 25px;
 }
 
-main #gallery, #location, h2 {
+main #gallery, #location, #gifts, h2 {
     color: #563E3F
 }
 
@@ -110,7 +110,7 @@ main #gallery, #location, h2 {
         font-size: 1.8em;
     }
 
-    #mainc, #menuc {
+    #mainc, #menuc, #giftsc {
       width: 75%;
       margin: auto;
       font-family: 'Roboto', sans-serif;
@@ -156,7 +156,7 @@ main #gallery, #location, h2 {
 }
 
 
-#mainc, #menuc {
+#mainc, #menuc, #giftsc {
   width: 85%;
   margin: auto;
   font-family: 'Roboto', sans-serif;

@@ -86,6 +86,11 @@ main #gallery, #location, #gifts, h2 {
 
 }
 
+#menuc ul {
+    list-style: none;
+    color: white;
+}
+
 /* tablet */
 @media screen and (min-width: 480px) {
     .menu ul li {

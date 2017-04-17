@@ -1,9 +1,13 @@
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Arapey', serif;
 }
 
 h2 {
     font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.4em;
 }
 
 header {
@@ -102,6 +106,10 @@ main #gallery, #location, h2 {
         font-size: 2em;
     }
 
+    h3 {
+        font-size: 1.8em;
+    }
+
     #mainc, #menuc {
       width: 75%;
       margin: auto;
@@ -134,7 +142,11 @@ main #gallery, #location, h2 {
         font-size: 2.3em;
     }
 
-    #mainc, #menuc {
+    h3 {
+        font-size: 2em;
+    }
+
+    #mainc, #menuc, #locationc {
       width: 60%;
       margin: auto;
       font-family: 'Roboto', sans-serif;

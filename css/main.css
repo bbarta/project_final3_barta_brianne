@@ -117,10 +117,6 @@ ul, menu, dir {
         color: #E5E1D2;
     }
 
-    .menu ul li :last-child {
-        border-bottom: none;
-    }
-
     .menu a {
         text-decoration: none;
         color: white;
@@ -138,11 +134,15 @@ ul, menu, dir {
         font-size: 1.8em;
     }
 
+    #menuc ul li {
+        font-size: 110%;
+    }
+
     #mainc, #menuc, #giftsc {
       width: 75%;
       margin: auto;
       font-family: 'Roboto', sans-serif;
-      line-height: 1.5em;
+      line-height: 2em;
 
     }
 
@@ -174,14 +174,24 @@ ul, menu, dir {
         font-size: 2em;
     }
 
+
+        #menuc ul li {
+            font-size: 125%;
+        }
+
+
     #mainc, #menuc, #locationc {
       width: 60%;
       margin: auto;
       font-family: 'Roboto', sans-serif;
-      line-height: 1.5em;
+      line-height: 2em;
 
     }
 }
+
+
+
+
 
 
 #menu {

@@ -59,6 +59,17 @@ main #gallery, #location, #gifts, h2 {
     color: white;
 }
 
+/* reset user agent stylesheet */
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
 .menu ul li {
     display: block;
     border-bottom: 2px solid #563E3F;
@@ -68,7 +79,7 @@ main #gallery, #location, #gifts, h2 {
     color: #E5E1D2;
 }
 
-.menu ul li :last-child {
+.menu ul :last-child {
     border-bottom: none;
 }
 
@@ -89,6 +100,10 @@ main #gallery, #location, #gifts, h2 {
 #menuc ul {
     list-style: none;
     color: white;
+}
+
+#menuc h3 {
+    color: #888686;
 }
 
 /* tablet */

@@ -315,6 +315,11 @@ ul, menu, dir {
 
 
 
+#space {
+    padding: 10px;
+}
+
+
 footer {
     background-color: #888686;
     width: 100%;

@@ -194,10 +194,6 @@ ul, menu, dir {
 }
 
 
-
-
-
-
 #cpmenu {
   background-color: #FFFBE1;
   width: 100%;
@@ -397,21 +393,18 @@ ul, menu, dir {
 }
 
 
-#button1 {
+#gunther {
     display: inline-block;
     padding: 1em;
     background-color: #890407;
     text-decoration: none;
     margin: 20px;
     border-radius: 5px;
-
-}
-
-#button1 a {
     color: #e5e1d2;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
+
 }
 
 
@@ -475,6 +468,65 @@ ul, menu, dir {
 }
 
 
+
+#cards {
+
+}
+
+#gc10, #gc25, #gc50, #gc100 {
+    margin: auto;
+    width: 300px;
+    height:150px;
+    display:none;
+    background-color: red;
+    border-radius: 15px;
+    font-size: 30px;
+    box-shadow: 5px 5px 5px #888888;
+    font-family: 'Arapey', serif;
+}
+
+
+#gc10 {
+    background-color: #1E431E;
+}
+
+#gc10 p {
+    color: white;
+    padding-top: 50px;
+}
+
+#gc25 {
+    background-color: #888686;
+    border-radius: 15px;
+
+}
+
+#gc25 p {
+    color: white;
+    padding-top: 50px;
+}
+
+#gc50 {
+    background-color: #890407;
+
+}
+
+#gc50 p {
+    color: white;
+    padding-top: 50px;
+}
+
+#gc100 {
+    background-color: #563E3F;
+}
+
+#gc100 p {
+    color: white;
+    padding-top: 50px;
+}
+
+
+
 footer {
     background-color: #888686;
     background-image: url('../img/give-bg.jpg');
@@ -486,6 +538,7 @@ footer {
     padding-bottom: 25px;
 
 }
+
 
 #footerc a {
     margin: 10px;

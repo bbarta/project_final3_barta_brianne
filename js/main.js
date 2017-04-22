@@ -43,6 +43,6 @@ $(document).ready(function(){
         $("#gc10").fadeIn();
         $("#gc25").fadeIn("slow");
         $("#gc50").fadeIn(3000);
-        $("#gc100").fadeIn(5000);
+        $("#gc100").fadeIn(4000);
     });
 });

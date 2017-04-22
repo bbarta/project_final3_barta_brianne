@@ -46,7 +46,7 @@ main {
   padding-bottom: 25px;
 }
 
-main #gallery1, #location, #gifts, h2 {
+main #gallery, #location, #gifts, h2 {
     color: #563E3F
 }
 
@@ -204,7 +204,7 @@ ul, menu, dir {
 }
 
 
-#gallery1 {
+#gallery {
   background-color: white;
   width: 100%;
   text-align: center;
@@ -212,6 +212,57 @@ ul, menu, dir {
   padding-bottom: 25px;
 
 }
+
+.polaroid {
+  position: relative;
+  display: inline-block;
+  float: left;
+  width: 200px;
+}
+
+
+.polaroid img {
+  border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+}
+
+.polaroid p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+  font: 400 18px/1 'Kaushan Script', cursive;
+  color: #888;
+}
+
+
+.polaroid2 {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+}
+
+
+.polaroid2 img {
+  border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+}
+
+.polaroid2 p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+  font: 400 18px/1 'Kaushan Script', cursive;
+  color: #888;
+}
+
 
 #events {
   background-color: #FF6312;

@@ -13,7 +13,7 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <!-- social library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- alertify -->
+    <!-- alertify plugin-->
     <link rel="stylesheet" href="themes/alertify.core.css" />
     <link rel="stylesheet" href="themes/alertify.default.css" id="toggleCSS" />
 
@@ -29,7 +29,7 @@
         <div class="menu">
                 <ul>
                   <li><a href="#mainc" class="smoothScroll">WHO WE ARE</a></li>
-                  <li><a href="#menu" class="smoothScroll">MENU</a></li>
+                  <li><a href="#cpmenu" class="smoothScroll">MENU</a></li>
                   <li><a href="#gallery" class="smoothScroll">GALLERY</a></li>
                   <li><a href="#location" class="smoothScroll">LOCATION</a></li>
                   <li><a href="#reservations" class="smoothScroll">RESERVATIONS</a></li>
@@ -42,12 +42,13 @@
     <main>
         <h2>Who We Are</h2>
         <div id="mainc">
-            <p>Welcome to Central Perk, the friendliest cafe in all of Manhattan! Our cafe is the perfect place to sit back, relax, and enjoy a cup o' joe with your closest friends. Our food and drinks are both tasty and affordable, and we offer a casual atmosphere. We even have a comfy couch! Make sure to leave your stress at the door. Don't worry, we'll always be there for you. Stop by soon, and bring a friend!</p>
+            <p id="demo"></p>
+            <p>Central Perk is the friendliest cafe in all of Manhattan! Our cafe is the perfect place to sit back, relax, and enjoy a cup o' joe with your closest friends. Our food and drinks are both tasty and affordable, and we offer a casual atmosphere. We even have a comfy couch! Make sure to leave your stress at the door. Don't worry, we'll always be there for you. Stop by soon, and bring a friend!</p>
         </div>
     </main>
 
 
-    <section id="menu">
+    <section id="cpmenu">
         <h2>Menu</h2>
         <div id="menuc">
             <h3>Coffee & Tea</h3>
@@ -174,8 +175,9 @@
     <article id="reservations">
         <h2>Reservations</h2>
         <div id="reservationc">
-            <a id="alert" class="hvr-underline-from-center" href="#">Make a Reservation</a><br>
+            <img src="img/centralperk.jpg" alert="friends" title="friends"/>
         </div>
+            <a id="alert" class="hvr-underline-from-center" href="#">Make a Reservation</a><br>
     </article>
 
     <section id="location">
@@ -221,9 +223,10 @@
 
 
     <script src="js/main.js"></script>
-    <script type="text/javascript" src="js/smoothscroll.js"></script>
-    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery.min.js"></script>
     <script src="lib/alertify.min.js"></script>
+    <script type="text/javascript" src="js/smoothscroll.js"></script>
+
 
 </body>
 </html>

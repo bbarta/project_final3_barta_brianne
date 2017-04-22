@@ -50,12 +50,12 @@ main #gallery, #location, #gifts, h2 {
     color: #563E3F
 }
 
-#menu {
+#cpmenu {
     background-image: url('../img/bg-slate.jpg');
     background-size: cover;
 }
 
-#menu h2 {
+#cpmenu h2 {
     color: white;
 }
 
@@ -198,7 +198,7 @@ ul, menu, dir {
 
 
 
-#menu {
+#cpmenu {
   background-color: #FFFBE1;
   width: 100%;
   text-align: center;
@@ -385,6 +385,11 @@ ul, menu, dir {
   padding-top: 25px;
   padding-bottom: 25px;
 
+}
+
+#gifts a {
+    color: #1e431e;
+    text-decoration: none;
 }
 
 #gifts p {

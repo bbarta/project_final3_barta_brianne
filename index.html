@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/css?family=Arapey" rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <!-- social library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
@@ -27,7 +29,7 @@
                   <li><a href="#menu" class="smoothScroll">MENU</a></li>
                   <li><a href="#gallery" class="smoothScroll">GALLERY</a></li>
                   <li><a href="#location" class="smoothScroll">LOCATION</a></li>
-                  <li><a href="#promotions" class="smoothScroll">PROMOTIONS</a></li>
+                  <li><a href="#reservations" class="smoothScroll">RESERVATIONS</a></li>
                   <li><a href="#events" class="smoothScroll">EVENTS</a></li>
                   <li><a href="#gifts" class="smoothScroll">GIVE</a></li>
                 </ul>
@@ -158,6 +160,11 @@
 
     <article id="events">
         <h2>Events</h2>
+
+        <p>JavaScript can show hidden HTML elements.</p>
+
+        <p id="demo" style="display:none">Hello JavaScript!</p>
+        <button type="button">Click Me!</button>
     </article>
 
 
@@ -168,12 +175,15 @@
     <section id="location">
         <h2>Location</h2>
         <div id="locationc">
+            <p>105 Cedarhurst Ave</p>
+            <p>Cedarhurst, NY 11516</p>
             <h3>Hours</h3>
             <p>Monday - Thursday | 7am - 9pm</p>
             <p>Friday - Saturday | 7am - 10pm</p>
             <p>Sunday | 9am - 2pm</p>
+
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12113.455054329548!2d-73.723979!3d40.6218591!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6dd258b302f92674!2sCentral+Perk+Cafe!5e0!3m2!1sen!2sus!4v1492390277563" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12113.455054329548!2d-73.723979!3d40.6218591!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6dd258b302f92674!2sCentral+Perk+Cafe!5e0!3m2!1sen!2sus!4v1492390277563" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     </section>
 
     <article id="gifts">
@@ -189,7 +199,13 @@
 
 
     <footer>
-        <h2>Footer</h2>
+        <h2>Follow Us!</h2>
+        <div id="footerc">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-yelp"></a>
+            <a href="#" class="fa fa-google"></a>
+    </div>
     </footer>
 
 

@@ -88,6 +88,10 @@ ul, menu, dir {
     color: white;
 }
 
+.menu a:hover {
+    background-color: #1E431E
+}
+
 
 #mainc, #menuc, #giftsc {
   width: 85%;
@@ -252,9 +256,18 @@ ul, menu, dir {
 
 }
 
+#reservations {
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
 
 #location {
-  background-color: white;
+  background-image: url('../img/locationbg.jpg');
+  background-size: cover;
   width: 100%;
   text-align: center;
   padding-top: 25px;

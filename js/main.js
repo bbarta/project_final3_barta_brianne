@@ -21,7 +21,6 @@ $("#alert").on( 'click', function () {
 });
 
 //if else statement greeting
-
 // here I am using an if statement to display a morning welcome greeting if the time of day is less than 12:00 hours
 if (new Date().getHours() < 12) {
     document.getElementById("demo").innerHTML = "Good morning and welcome! Start your day with a cup of coffee!";
@@ -35,3 +34,15 @@ if (new Date().getHours() > 12 < 5) {
 else {
         greeting = "Good evening and welcome to Central Perk! Check our events schedule to see what's happening tonight at the coffeehouse.";
     }
+
+
+
+// gift card fade in
+$(document).ready(function(){
+    $("#gunther").click(function(){
+        $("#gc10").fadeIn();
+        $("#gc25").fadeIn("slow");
+        $("#gc50").fadeIn(3000);
+        $("#gc100").fadeIn(5000);
+    });
+});

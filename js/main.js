@@ -1,14 +1,20 @@
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("topbtn").style.display = "block";
-    } else {
-        document.getElementById("topbtn").style.display = "none";
-    }
+function reset () {
+    $("#toggleCSS").attr("href", "../themes/alertify.default.css");
+    alertify.set({
+        labels : {
+            ok     : "OK",
+            cancel : "Cancel"
+        },
+        delay : 5000,
+        buttonReverse : false,
+        buttonFocus   : "ok"
+    });
 }
 
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
+// ==============================
+// Standard Dialogs
+$("#alert").on( 'click', function () {
+    reset();
+    alertify.alert("Sorry, reservations are only for Chandler, Monica, Phoebe, Joey, Ross, and Rachel.");
+    return false;
+});

@@ -20,7 +20,7 @@ $("#alert").on( 'click', function () {
     return false;
 });
 
-//if statement greeting
+//JavaScript Code under navigation
 // here I am using an if statement to display a morning welcome greeting if the time of day is earlier than 12pm
 if (new Date().getHours() < 12) {
     document.getElementById("demo").innerHTML = "Good morning and welcome! Start your day with a cup of coffee!";
@@ -36,8 +36,7 @@ else {
     }
 
 
-
-// jQuery gift card fade in
+//JavaScript Code in Gift Card section
 // on click of the button, this function is fading in one div at a time based on speed
 $(document).ready(function(){
     $("#gunther").click(function(){

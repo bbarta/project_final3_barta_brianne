@@ -213,11 +213,13 @@ ul, menu, dir {
 
 }
 
+
 .polaroid {
   position: relative;
   display: inline-block;
-  float: left;
   width: 200px;
+  padding: 20px;
+  background-color: red;
 }
 
 
@@ -233,7 +235,7 @@ ul, menu, dir {
   position: absolute;
   text-align: center;
   width: 100%;
-  bottom: 0px;
+  bottom: 20px;
   font: 400 18px/1 'Kaushan Script', cursive;
   color: #888;
 }
@@ -243,6 +245,8 @@ ul, menu, dir {
   position: relative;
   display: inline-block;
   width: 200px;
+  padding: 20px;
+  background-color: red;
 }
 
 
@@ -258,7 +262,7 @@ ul, menu, dir {
   position: absolute;
   text-align: center;
   width: 100%;
-  bottom: 0px;
+  bottom: 20px;
   font: 400 18px/1 'Kaushan Script', cursive;
   color: #888;
 }

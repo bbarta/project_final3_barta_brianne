@@ -46,7 +46,7 @@ main {
   padding-bottom: 25px;
 }
 
-main #gallery, #location, #gifts, h2 {
+main #gallery1, #location, #gifts, h2 {
     color: #563E3F
 }
 
@@ -204,7 +204,7 @@ ul, menu, dir {
 }
 
 
-#gallery {
+#gallery1 {
   background-color: white;
   width: 100%;
   text-align: center;
@@ -315,7 +315,7 @@ ul, menu, dir {
 
 
 
-#space {
+.space {
     padding: 15px;
 }
 

@@ -292,14 +292,6 @@ ul, menu, dir {
     color: black;
 }
 
-#buttons {
-    margin: 0 auto;
-    width: 50%;
-    padding-bottom: 50px;
-    padding-top: 50px;
-    text-align: center;
-}
-
 
 #button1 {
     display: inline-block;
@@ -312,6 +304,24 @@ ul, menu, dir {
 }
 
 #button1 a {
+    color: #e5e1d2;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+
+#button2 {
+    display: inline-block;
+    padding: 1em;
+    background-color: #890407;
+    text-decoration: none;
+    margin: 20px;
+    border-radius: 5px;
+
+}
+
+#button2 a {
     color: #e5e1d2;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;

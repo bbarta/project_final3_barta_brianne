@@ -37,7 +37,8 @@ else {
 
 
 
-// gift card fade in
+// jQuery gift card fade in
+// on click of the button, this function is fading in one div at a time based on speed
 $(document).ready(function(){
     $("#gunther").click(function(){
         $("#gc10").fadeIn();

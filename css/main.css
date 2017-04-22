@@ -93,7 +93,7 @@ ul, menu, dir {
 }
 
 
-#mainc, #menuc, #giftsc {
+#mainc, #menuc, #giftsc, #eventsc {
   width: 85%;
   margin: auto;
   font-family: 'Roboto', sans-serif;
@@ -106,8 +106,14 @@ ul, menu, dir {
     color: white;
 }
 
+
+
 #menuc h3 {
     color: #888686;
+}
+
+#eventsc ul {
+    list-style: none;
 }
 
 /* tablet */
@@ -142,7 +148,7 @@ ul, menu, dir {
         font-size: 110%;
     }
 
-    #mainc, #menuc, #giftsc {
+    #mainc, #menuc, #giftsc, #eventsc {
       width: 75%;
       margin: auto;
       font-family: 'Roboto', sans-serif;
@@ -184,7 +190,7 @@ ul, menu, dir {
         }
 
 
-    #mainc, #menuc, #locationc {
+    #mainc, #menuc, #locationc, #eventsc {
       width: 60%;
       margin: auto;
       font-family: 'Roboto', sans-serif;
